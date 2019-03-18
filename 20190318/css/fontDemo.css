@@ -1,0 +1,8 @@
+span
+{
+	font-family: "楷体";
+	font-weight: hold;   /*粗细*/
+	font-size: 17px;     /*大小*/
+	text-shadow: 5px 6px 7px rgb(255,0,255);  /* 阴影: (x轴距离   y轴距离   粗   颜色)*/
+	
+}

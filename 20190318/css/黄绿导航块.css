@@ -1,0 +1,31 @@
+ul
+{
+	list-style: none;
+}
+ul li
+{
+	width: 200px;
+	height: 200px;
+	margin-top: 10px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 200px;
+	transition: border-radius 0.5s; 
+}
+#yello
+{
+	background-color: yellow;
+		
+}
+#yello:hover
+{
+	border-radius: 100px;;
+}
+#green
+{
+	background-color: green;
+}
+#green:hover
+{
+	border-radius: 100px;
+}

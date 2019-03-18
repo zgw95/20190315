@@ -1,0 +1,28 @@
+ul
+{
+	list-style: none;
+}
+a
+{
+	display: block;
+	color: black;
+	height:40px ;
+	width:110px ;
+	margin-top: 3px;
+	font-size: 18px;
+	text-align: center;
+	line-height: 40px;
+	border-radius: 3px;   /*圆角工具*/
+	text-decoration: none;
+}
+a:hover 
+{
+	color: white;
+	background-color: orangered;
+	cursor: pointer;      /*光标:手势*/
+}
+a:focus
+{
+	color: white;
+	background-color: orangered;
+}
