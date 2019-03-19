@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title></title>
+		<style type="text/css">
+			ul
+			{
+				list-style: none;
+			}
+		    li
+			{
+				display: inline-block;
+				background-color: rgba(255,0,0,0.6);
+			}
+			span
+			{
+				color: white;
+			}
+			li:hover span:nth-child(1)
+			{
+				color: black;
+				transition-delay: 0.1s;  /*过度延迟0.1s*/
+			}
+			li:hover span:nth-child(2)
+			{
+				color: black;
+				transition-delay: 0.2s;  /*过度延迟0.2s*/
+			}
+		</style>
+	</head>
+	<body>
+		<ul>
+			<li>
+				<span >文</span>
+				<span >件</span>
+			</li>
+			<li>
+				<span >编</span>
+				<span >辑</span>
+			</li>
+			
+		</ul>
+	</body>
+</html>
